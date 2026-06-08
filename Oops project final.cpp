@@ -51,7 +51,6 @@ public:
         save();
     }
 
-    // NAYA FUNCTION: Bad me kisi ek single student ko add karne ke liye
     void addSingleStudent() {
         string bYear, id, nm;
         cout << "\nEnter Batch Year for New Student: "; cin >> bYear;
@@ -134,6 +133,6 @@ int main() {
         else if (c == 4) vt.report();
         else if (c == 5) vt.searchStudent();
         else if (c == 6) vt.clearRecords();
-        else if (c == 7) vt.addSingleStudent(); // Naye feature ka connection
+        else if (c == 7) vt.addSingleStudent();
     }
 }
